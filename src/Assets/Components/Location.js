@@ -24,6 +24,10 @@ window.addEventListener('load',()=>{
 
     iconMap.addEventListener('click',()=> map.classList.toggle('visible'));
     map.addEventListener('mouseleave',()=>map.classList.remove('visible'));
+    
+    
+
+
 
 });
 
