@@ -1,0 +1,106 @@
+.serviceStyle{
+
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+.titleService{
+
+    background-color: #0962C1;
+    height: 20%;
+    width: 80%;
+    float: right;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: -30px 163px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -30px 163px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -30px 163px 5px 0px rgba(0,0,0,0.75);
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 5% 100%);
+
+}
+.titleService h2, .titleService h3{
+
+    font-size: 2.7rem;
+    display: inline-block;
+    margin: 0 .4rem;
+    text-shadow: 4px 4px 2px rgb(39, 39, 39);
+
+}
+.titleService h2{
+
+    color: #fff;
+
+}
+.titleService h3{
+
+    color: #F79716;
+
+}
+
+
+.services{
+
+
+    height: 65%;
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.services ul{
+
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.658);
+
+    
+}
+.services ul li{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+.services ul li i{
+
+    font-size: 5rem; 
+    margin-bottom: 2rem;
+    color: #F79716;
+    
+}
+@media screen and (max-width:700px){
+
+    .serviceStyle{
+
+        margin-top: 7rem;
+        height: 80vh;
+    }
+    .titleService{
+
+        width: 100%;
+        flex-direction: column;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        
+    }
+    .titleService h2, .titleService h3{
+        
+        display: flex;
+        justify-content: center;
+        width: 100%;
+ 
+    }
+    .services{
+
+  
+        font-size: 1.1rem;
+    
+
+    }
+
+}

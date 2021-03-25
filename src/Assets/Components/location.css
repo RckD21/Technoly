@@ -1,0 +1,59 @@
+.locationIcon{
+
+    position: fixed;
+    height: 3.8rem;
+    width: 3.8rem;
+    border-radius: 50%;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: #313131;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+.googleMaps{
+
+    height: 70vh;
+    width: 50%;
+    position: fixed;
+    background-color: #fff;
+  
+    border-radius: 15px 15px 15px 0px;
+    border: #000 solid 2px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: .5s;
+    visibility: hidden;
+    transform: scale(0);
+
+    top: 21vh;
+    left: 5%;
+
+}
+.visible{
+
+    visibility: visible;
+    transform: scale(1);
+}
+.titleLocation{
+
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 4px 4px 2px rgb(39, 39, 39);
+    display: inline-block;
+    color: #a7a7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.titleLocation span{
+
+    color: #F79716;
+
+}

@@ -1,0 +1,16 @@
+.footerStyle{
+
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: flex-end;
+}
+.footerStyle h1, .footerStyle h2{
+
+    font-size: .9rem;
+
+}
