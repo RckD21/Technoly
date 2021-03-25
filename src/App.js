@@ -17,8 +17,8 @@ function App() {
       <Articles />
       <Services />
       <Contacts />
-      <Footer />
       <Location />
+      <Footer />
       
     </div>
   );

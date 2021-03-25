@@ -22,7 +22,7 @@ window.addEventListener('load',()=>{
     let map = document.querySelector('.googleMaps');
     let iconMap = document.querySelector('.locationIcon');
 
-    iconMap.addEventListener('click',()=> map.classList.add('visible'));
+    iconMap.addEventListener('click',()=> map.classList.toggle('visible'));
     map.addEventListener('mouseleave',()=>map.classList.remove('visible'));
 
 });

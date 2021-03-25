@@ -57,3 +57,17 @@
     color: #F79716;
 
 }
+@media screen and (max-width:700px){
+
+    .googleMaps{
+
+        width: 90%;
+
+    }
+    .titleLocation{
+
+        font-size: 1.4rem;
+
+    }
+
+}
